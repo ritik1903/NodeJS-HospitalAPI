@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 
-app.use("/",require("./routes/home"));
+
 app.use("/doctors", require("./routes/doctor"));
 app.use("/patients", require("./routes/patient"));
 app.use("/reports", require("./routes/report"));
